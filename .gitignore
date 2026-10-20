@@ -1,0 +1,6 @@
+# Ambiente virtual (recriado com: pip install -r requirements.txt)
+.venv/
+
+# Arquivos gerados automaticamente pelo Python e pelo Jupyter
+__pycache__/
+.ipynb_checkpoints/
