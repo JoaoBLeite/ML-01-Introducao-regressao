@@ -4,7 +4,7 @@ Uma **introdução prática e didática a Machine Learning** usando Python e o d
 
 ## 🎯 Objetivo
 
-Este repositório é um caderno de estudos para quem está **começando em Machine Learning e em Python**. Ao longo de 7 notebooks, construímos passo a passo um modelo que prevê o **valor mediano das casas** em regiões da Califórnia. Cada etapa é explicada do zero.
+Este repositório é um caderno de estudos para quem está **começando em Machine Learning e em Python**. Ao longo de 7 notebooks, mais um extra, construímos passo a passo um modelo que prevê o **valor mediano das casas** em regiões da Califórnia. Cada etapa é explicada do zero.
 
 O foco não é só chegar a um bom modelo. É **entender o porquê** de cada decisão:
 
@@ -31,6 +31,12 @@ O alvo (`MedHouseVal`) é o valor mediano das casas do bloco, em centenas de mil
 | [06 · Ajuste de hiperparâmetros](06_ajuste_de_hiperparametros.ipynb) | `GridSearchCV`, `RandomizedSearchCV`, interação entre hiperparâmetros, a "maldição do vencedor" |
 | [07 · Avaliação final e interpretação](07_avaliacao_final_e_interpretacao.ipynb) | Avaliação no teste, análise de erros no mapa, *permutation importance*, dependência parcial, salvar o modelo, limitações e uso responsável |
 
+**Extra:** depois de terminar a trilha principal, aprofunde com:
+
+| Notebook | O que você aprende |
+|---|---|
+| [08 · Gradient boosting](08_gradient_boosting.ipynb) | Bagging × boosting, um boosting construído à mão, taxa de aprendizado, parada antecipada, `HistGradientBoostingRegressor` e ajuste de hiperparâmetros quando eles realmente importam |
+
 ### Evolução dos resultados (no conjunto de teste)
 
 | Notebook | Modelo | Erro médio (MAE) | R² |
@@ -40,7 +46,8 @@ O alvo (`MedHouseVal`) é o valor mediano das casas do bloco, em centenas de mil
 | 03 | Regressão linear + pré-processamento | US$ 46.400 | 0,68 |
 | 04 | Árvore de decisão | US$ 42.600 | 0,68 |
 | 04 | Random forest + atributos | US$ 30.600 | 0,83 |
-| 07 | **Random forest ajustada (modelo final)** | **US$ 30.300** | **0,83** |
+| 07 | Random forest ajustada (final da trilha principal) | US$ 30.300 | 0,83 |
+| 08 | **Gradient boosting ajustado (extra)** | **US$ 27.900** | **0,86** |
 
 ## 🛠️ Configurando o ambiente
 
@@ -125,7 +132,7 @@ O navegador vai abrir com a lista de arquivos do projeto. Se preferir uma interf
 
 ### 2. Siga os notebooks em ordem
 
-Comece pelo **01** e siga até o **07**. Cada notebook pressupõe os conceitos dos anteriores.
+Comece pelo **01** e siga até o **07**. Cada notebook pressupõe os conceitos dos anteriores. O **08** é um extra, para depois da trilha principal.
 
 Dentro de um notebook:
 - **`Shift + Enter`** executa a célula atual e passa para a próxima.
@@ -136,7 +143,7 @@ Dentro de um notebook:
 ### Observações
 
 - **Na primeira execução**, o dataset é baixado da internet (cerca de 400 KB) e fica salvo em `~/scikit_learn_data`. Nas próximas vezes, não é preciso conexão.
-- **O notebook 06 demora alguns minutos** (cerca de 4 minutos), porque treina centenas de modelos.
+- **Os notebooks 06 e 08 demoram alguns minutos** (cerca de 4 e 7 minutos), porque treinam centenas de modelos.
 - **O notebook 07 salva o modelo final** na pasta `modelos/` (cerca de 33 MB). Essa pasta não vai para o Git: ela é recriada sempre que o notebook 07 é executado.
 - Os notebooks já estão salvos **com os resultados**, então dá para lê-los aqui no GitHub mesmo sem executá-los.
 
@@ -151,7 +158,8 @@ ML-01-Introducao-regressao/
 ├── 05_validacao_cruzada.ipynb
 ├── 06_ajuste_de_hiperparametros.ipynb
 ├── 07_avaliacao_final_e_interpretacao.ipynb
-├── atributos.py          # funções de engenharia de atributos (usadas no notebook 07)
+├── 08_gradient_boosting.ipynb      # extra
+├── atributos.py          # funções de engenharia de atributos (usadas nos notebooks 07 e 08)
 ├── requirements.txt      # bibliotecas e versões do projeto
 └── modelos/              # criada pelo notebook 07 (não versionada)
 ```
