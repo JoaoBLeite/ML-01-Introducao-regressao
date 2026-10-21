@@ -1,4 +1,4 @@
-# ML-California-Housing
+# ML-01-Introducao-regressao
 
 Uma **introdução prática e didática a Machine Learning** usando Python e o dataset **California Housing**.
 
@@ -55,8 +55,8 @@ O alvo (`MedHouseVal`) é o valor mediano das casas do bloco, em centenas de mil
 ### 1. Baixe o repositório
 
 ```bash
-git clone https://github.com/JoaoBLeite/ML-California-Housing.git
-cd ML-California-Housing
+git clone https://github.com/JoaoBLeite/ML-01-Introducao-regressao.git
+cd ML-01-Introducao-regressao
 ```
 
 ### 2. Crie um ambiente virtual
@@ -143,7 +143,7 @@ Dentro de um notebook:
 ## 📁 Estrutura do projeto
 
 ```
-ML-California-Housing/
+ML-01-Introducao-regressao/
 ├── 01_analise_exploratoria.ipynb
 ├── 02_primeiro_modelo.ipynb
 ├── 03_preprocessamento_e_pipeline.ipynb
