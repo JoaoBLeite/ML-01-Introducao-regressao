@@ -4,7 +4,7 @@ Uma **introdução prática e didática a Machine Learning** usando Python e o d
 
 ## 🎯 Objetivo
 
-Este repositório é um caderno de estudos para quem está **começando em Machine Learning e em Python**. Ao longo de 7 notebooks, mais um extra, construímos passo a passo um modelo que prevê o **valor mediano das casas** em regiões da Califórnia. Cada etapa é explicada do zero.
+Este repositório é um caderno de estudos para quem está **começando em Machine Learning e em Python**. Ao longo de 7 notebooks, mais dois extras, construímos passo a passo um modelo que prevê o **valor mediano das casas** em regiões da Califórnia. Cada etapa é explicada do zero.
 
 O foco não é só chegar a um bom modelo. É **entender o porquê** de cada decisão:
 
@@ -36,6 +36,7 @@ O alvo (`MedHouseVal`) é o valor mediano das casas do bloco, em centenas de mil
 | Notebook | O que você aprende |
 |---|---|
 | [08 · Gradient boosting](08_gradient_boosting.ipynb) | Bagging × boosting, um boosting construído à mão, taxa de aprendizado, parada antecipada, `HistGradientBoostingRegressor` e ajuste de hiperparâmetros quando eles realmente importam |
+| [09 · Regularização](09_regularizacao.ipynb) | Coeficientes instáveis e multicolinearidade, Ridge (L2), Lasso (L1) e seleção de colunas, recursos polinomiais, troca entre viés e variância |
 
 ### Evolução dos resultados (no conjunto de teste)
 
@@ -48,6 +49,7 @@ O alvo (`MedHouseVal`) é o valor mediano das casas do bloco, em centenas de mil
 | 04 | Random forest + atributos | US$ 30.600 | 0,83 |
 | 07 | Random forest ajustada (final da trilha principal) | US$ 30.300 | 0,83 |
 | 08 | **Gradient boosting ajustado (extra)** | **US$ 27.900** | **0,86** |
+| 09 | Ridge + recursos polinomiais (extra, melhor modelo linear) | US$ 38.700 | 0,74 |
 
 ## 🛠️ Configurando o ambiente
 
@@ -132,7 +134,7 @@ O navegador vai abrir com a lista de arquivos do projeto. Se preferir uma interf
 
 ### 2. Siga os notebooks em ordem
 
-Comece pelo **01** e siga até o **07**. Cada notebook pressupõe os conceitos dos anteriores. O **08** é um extra, para depois da trilha principal.
+Comece pelo **01** e siga até o **07**. Cada notebook pressupõe os conceitos dos anteriores. O **08** e o **09** são extras, para depois da trilha principal.
 
 Dentro de um notebook:
 - **`Shift + Enter`** executa a célula atual e passa para a próxima.
@@ -159,7 +161,8 @@ ML-01-Introducao-regressao/
 ├── 06_ajuste_de_hiperparametros.ipynb
 ├── 07_avaliacao_final_e_interpretacao.ipynb
 ├── 08_gradient_boosting.ipynb      # extra
-├── atributos.py          # funções de engenharia de atributos (usadas nos notebooks 07 e 08)
+├── 09_regularizacao.ipynb          # extra
+├── atributos.py          # funções de engenharia de atributos (usadas nos notebooks 07 a 09)
 ├── requirements.txt      # bibliotecas e versões do projeto
 └── modelos/              # criada pelo notebook 07 (não versionada)
 ```
