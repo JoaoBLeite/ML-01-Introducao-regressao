@@ -4,3 +4,6 @@
 # Arquivos gerados automaticamente pelo Python e pelo Jupyter
 __pycache__/
 .ipynb_checkpoints/
+
+# Modelos treinados (arquivos grandes; são recriados rodando o notebook 07)
+modelos/
