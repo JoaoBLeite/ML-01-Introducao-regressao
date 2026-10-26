@@ -1,0 +1,39 @@
+# Configuração do livro (Jupyter Book 2 / MyST)
+# Para gerar localmente: jupyter-book start   (ou jupyter-book build --html)
+version: 1
+project:
+  id: ml-01-introducao-regressao
+  title: Introdução à Regressão com Machine Learning
+  description: Uma introdução prática e didática a Machine Learning com Python e o dataset California Housing.
+  authors:
+    - name: JoaoBLeite
+  license: CC-BY-NC-SA-4.0
+  github: https://github.com/JoaoBLeite/ML-01-Introducao-regressao
+  keywords:
+    - machine learning
+    - regressão
+    - scikit-learn
+    - california housing
+  # Botão para abrir os notebooks no Binder e executá-los no navegador
+  jupyter:
+    binder:
+      repo: JoaoBLeite/ML-01-Introducao-regressao
+  toc:
+    - file: README.md
+    - title: Trilha principal
+      children:
+        - file: 01_analise_exploratoria.ipynb
+        - file: 02_primeiro_modelo.ipynb
+        - file: 03_preprocessamento_e_pipeline.ipynb
+        - file: 04_modelos_nao_lineares.ipynb
+        - file: 05_validacao_cruzada.ipynb
+        - file: 06_ajuste_de_hiperparametros.ipynb
+        - file: 07_avaliacao_final_e_interpretacao.ipynb
+    - title: Extras
+      children:
+        - file: 08_gradient_boosting.ipynb
+        - file: 09_regularizacao.ipynb
+site:
+  template: book-theme
+  options:
+    logo_text: ML-01 · Regressão

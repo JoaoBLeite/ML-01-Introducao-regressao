@@ -7,3 +7,6 @@ __pycache__/
 
 # Modelos treinados (arquivos grandes; são recriados rodando o notebook 07)
 modelos/
+
+# Saída gerada pelo Jupyter Book (recriada com: jupyter-book build --html)
+_build/
