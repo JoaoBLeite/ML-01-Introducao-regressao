@@ -1,0 +1,20 @@
+{
+  "title": "Introdução Prática a Machine Learning com Regressão",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "description": "<p>Livro digital interativo, em notebooks Jupyter, que ensina Machine Learning do zero com Python e o dataset California Housing: análise exploratória, regressão linear, pré-processamento, árvores e ensembles, validação cruzada, ajuste de hiperparâmetros, interpretação, gradient boosting e regularização.</p><p>Versão on-line: <a href=\"https://joaobleite.github.io/ML-01-Introducao-regressao/\">https://joaobleite.github.io/ML-01-Introducao-regressao/</a></p>",
+  "creators": [
+    { "name": "Leite, João Pedro Barbosa" }
+  ],
+  "license": "cc-by-nc-sa-4.0",
+  "access_right": "open",
+  "language": "por",
+  "keywords": ["machine learning", "regressão", "scikit-learn", "python", "california housing"],
+  "related_identifiers": [
+    {
+      "identifier": "https://joaobleite.github.io/ML-01-Introducao-regressao/",
+      "relation": "isIdenticalTo",
+      "resource_type": "publication-book"
+    }
+  ]
+}

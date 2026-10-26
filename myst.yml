@@ -3,10 +3,12 @@
 version: 1
 project:
   id: ml-01-introducao-regressao
-  title: Introdução à Regressão com Machine Learning
+  title: Introdução Prática a Machine Learning com Regressão
   description: Uma introdução prática e didática a Machine Learning com Python e o dataset California Housing.
   authors:
-    - name: JoaoBLeite
+    - name:
+        given: João Pedro Barbosa
+        family: Leite
   license: CC-BY-NC-SA-4.0
   github: https://github.com/JoaoBLeite/ML-01-Introducao-regressao
   keywords:

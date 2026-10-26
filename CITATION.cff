@@ -1,0 +1,23 @@
+# Metadados de citação: usados pelo botão "Cite this repository" do GitHub
+cff-version: 1.2.0
+message: Se usar este material, cite-o com os dados abaixo.
+title: "Introdução Prática a Machine Learning com Regressão"
+abstract: >-
+  Livro digital interativo, em notebooks Jupyter, que ensina Machine Learning
+  do zero com Python e o dataset California Housing: análise exploratória,
+  regressão linear, pré-processamento, árvores e ensembles, validação cruzada,
+  ajuste de hiperparâmetros, interpretação, gradient boosting e regularização.
+authors:
+  - given-names: João Pedro Barbosa
+    family-names: Leite
+version: 1.0.0
+date-released: 2026-10-26
+license: CC-BY-NC-SA-4.0
+repository-code: https://github.com/JoaoBLeite/ML-01-Introducao-regressao
+url: https://joaobleite.github.io/ML-01-Introducao-regressao/
+keywords:
+  - machine learning
+  - regressão
+  - scikit-learn
+  - python
+  - california housing
