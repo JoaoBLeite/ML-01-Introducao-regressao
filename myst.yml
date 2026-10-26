@@ -10,6 +10,7 @@ project:
         given: João Pedro Barbosa
         family: Leite
   license: CC-BY-NC-SA-4.0
+  doi: 10.5281/zenodo.23664988
   github: https://github.com/JoaoBLeite/ML-01-Introducao-regressao
   keywords:
     - machine learning

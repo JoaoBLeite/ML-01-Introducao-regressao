@@ -11,6 +11,7 @@ authors:
   - given-names: João Pedro Barbosa
     family-names: Leite
 version: 1.0.0
+doi: 10.5281/zenodo.23664988
 date-released: 2026-10-26
 license: CC-BY-NC-SA-4.0
 repository-code: https://github.com/JoaoBLeite/ML-01-Introducao-regressao

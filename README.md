@@ -1,6 +1,11 @@
 # ML-01-Introducao-regressao
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23664988.svg)](https://doi.org/10.5281/zenodo.23664988)
+[![Licença: CC BY-NC-SA 4.0](https://img.shields.io/badge/licen%C3%A7a-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
+
 Uma **introdução prática e didática a Machine Learning** usando Python e o dataset **California Housing**.
+
+📖 **Leia como livro interativo:** https://joaobleite.github.io/ML-01-Introducao-regressao/
 
 ## 🎯 Objetivo
 
@@ -170,3 +175,15 @@ ML-01-Introducao-regressao/
 ## ⚠️ Limitações
 
 Este projeto é para **aprender**, não para avaliar imóveis de verdade. Os dados são de 1990, descrevem regiões e não casas individuais, e têm um teto artificial em US$ 500 mil. O notebook 07 discute essas limitações e os cuidados com o uso responsável de modelos como este.
+
+## 📝 Como citar
+
+Se usar este material, cite-o assim (ABNT):
+
+> LEITE, João Pedro Barbosa. **Introdução Prática a Machine Learning com Regressão**. Zenodo, 2026. DOI: [10.5281/zenodo.23664988](https://doi.org/10.5281/zenodo.23664988).
+
+Esse DOI sempre aponta para a versão mais recente. No GitHub, o botão **Cite this repository** gera a citação em outros formatos (APA, BibTeX).
+
+## 📄 Licença
+
+Este material está sob a licença [Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)](LICENSE): você pode copiar, adaptar e redistribuir, desde que cite a autoria, não use para fins comerciais e distribua as adaptações sob a mesma licença.
